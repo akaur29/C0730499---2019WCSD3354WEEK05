@@ -35,5 +35,32 @@ namespace ConsoleApp3
                 return true;
         }
     }
+
+
+
+
+    class dog
+    {
+        public dog(string name,string breed)
+        {
+            dog_name = name;
+            dog_breed = breed;
+        }
+        public string dog_name;
+        public string dog_breed;
+        public dog next_dog;
+        public dog previous_dog;
+
+    }
+    class birthday_party
+        {
+        public dog fifo;
+        public dog peanut;
+        public dog clarence;
+        public dog roy;
+        public dog head;
+
+        }
+    
 }
 }
